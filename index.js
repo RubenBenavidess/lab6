@@ -8,7 +8,7 @@ const PORT = process.env.PORT;
 // Endpoint
 
 app.get('/', (_req, res) => {
-    res.send('Integración continua funcionando!')
+    res.send('Integración continua funcionando!');
 });
 
 app.listen(PORT, () => {
