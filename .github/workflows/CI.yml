@@ -23,7 +23,7 @@ jobs:
       run: npm install
 
     - name: Lint del código
-      run: npm run Lint
+      run: npm run lint
 
     - name: Ejecutar pruebas
       run: npm test
